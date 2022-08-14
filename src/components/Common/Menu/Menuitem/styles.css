@@ -1,0 +1,51 @@
+.item{
+    width: 150px;
+    padding: 0 0.8rem .8rem .8rem;
+    background-color: #FA8072;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item img{
+    margin-top: -3.5rem;
+    height: 130px;
+    object-fit: contain;
+}
+
+.item-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-head p{
+     margin: 0;
+     margin-bottom: .5rem;
+}
+
+.item-head{
+    text-align: center;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-name{
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.head-info{
+    font-size: .8rem;
+    color: #fff;
+}
+
+.foot-price{
+    font-weight: 700;
+}
